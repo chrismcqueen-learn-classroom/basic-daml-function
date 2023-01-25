@@ -5,7 +5,8 @@ import Daml.Script
 -- write a function called squareArea
 -- have it take a lenth and width
 -- have it return a whole number
-squareArea: 
+squareArea: Int -> Int -> Int
+squareArea l w = l * w
 
 setup : Script ()
 setup = script do
