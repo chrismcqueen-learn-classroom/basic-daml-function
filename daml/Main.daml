@@ -1,0 +1,16 @@
+module Main where
+
+import Daml.Script
+
+-- write a function called squareArea
+-- have it take a lenth and width
+-- have it return a whole number
+squareArea: 
+
+setup : Script ()
+setup = script do
+
+  let length = 4
+  let width = 4
+
+  debug $ squareArea length width
